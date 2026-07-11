@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Barbosa Hospedagens - Reservar quarto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Barbosa</h1>
+        <div class="flex vertical-center">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Fotos</a></li>
+                    <li><a href="">Comodidades</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="reservarquarto.html">Reservar quarto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="" method="" id="ReservarQuarto">
+            <h1>Formulário de Cadastro</h1>
+            <div id="divname">
+                <label for="namer">Nome:</label>
+                <input type="text" id="namer" class="input tamanho" name="name" required>
+            </div>
+
+            <div id="divcpf">
+                <label for="cpf">CPF:</label>
+                <input type="number" id="cpf" class="input tamanho" name="cpf" required>
+            </div>
+
+            <div id="divge">
+                <label for="sexo">Sexo:</label>
+                <div id="divsexo">
+                    <input type="radio" name="sexo" id="sexo" value="M"><span>Masculino</span>
+                    <input type="radio" name="sexo" id="sexo" value="F"><span>Feminino</span>
+                    <input type="radio" name="sexo" id="sexo" value="O"><span>Outro</span>
+                </div>
+            </div>
+
+            <div id="divdatadenascimento">
+                <label for="datadenascimento">Data de Nascimento:</label>
+                <input type="date" id="datadenascimento" class="input tamanho" name="datadenascimento" required>
+            </div>
+
+            <div id="divemail">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="input tamanho" name="email" required>
+            </div>
+
+            <div id="divrua">
+                <label for="rua">Rua:</label>
+                <input type="text" id="rua" class="input tamanho" name="rua" required>
+            </div>
+
+            <div id="divnumero">
+                <label for="numero">Número:</label>
+                <input type="number" id="numero" class="input tamanho" name="numero" required>
+            </div>
+
+            <div id="divcidade">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" class="input tamanho" name="cidade" required>
+            </div>
+
+                <div id="divestado">
+                    <label for="estado">UF:</label>
+                    <select id="estado" class="input tamanho" name="estado" required>
+                        <option value="">Selecione</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                    </select>
+                </div>
+
+            <div id="divadultos">
+                <label for="adultos">Número de Adultos:</label>
+                <input type="number" id="adultos" class="input tamanho" name="adultos" required>
+            </div>
+
+            <div id="divcriancas">
+                <label for="criancas">Número de Crianças:</label>
+                <input type="number" id="criancas" class="input tamanho" name="criancas" required>
+            </div>
+            <div id="botaoreservar">
+                <button id="reservarbutton">Reservar</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

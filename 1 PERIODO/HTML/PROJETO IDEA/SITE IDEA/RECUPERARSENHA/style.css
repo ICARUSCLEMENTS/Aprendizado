@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #1c1c1c, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    background-color: #000;
+    height: 125px;
+    bottom: 0;
+    width: 100%;
+
+    #divrodape {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 100%;
+        margin: auto;
+
+        a {
+            text-decoration: none;
+            margin: 10px;
+            color: white;
+
+            img {
+                width: 5vw;
+                max-width: 75px;
+            }
+        }
+    }
+}
+
+#meiuca {
+    color: white;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        margin: 0;
+        padding: 0;
+        text-shadow: 0 0 3px white;
+        font-size: 0.8em;
+    }
+}
+
+#textres {
+    font-size: 100%;
+}
+
+#divrodapelinks {
+    text-shadow: 0 0 10px white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#idearodape {
+    filter: drop-shadow(0 0 5px white);
+}
+
+#ifrodape {
+    filter: drop-shadow(0 0 2px Lime);
+}
+@media (max-width: 1050px) {
+    #textres {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 550px) {
+    #textres {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 420px) {
+    #textres {
+        font-size: 45%;
+    }
+}
+
+@media (max-width: 350px) {
+    #textres {
+        font-size: 30%;
+    }
+}
+
+.recovery-container {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+
+.recovery-container p {
+    color: #aaa;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.recovery-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.recovery-container input[type="password"] {
+    background: #333;
+    color: white;
+}
+
+.recovery-container button {
+    width: 100%;
+    padding: 10px;
+    background: #9f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.recovery-container button:hover {
+    background: #8d0;
+}
+
+#logo {
+    img {
+        width: 30%;
+    }
+}

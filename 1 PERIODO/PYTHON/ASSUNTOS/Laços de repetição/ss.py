@@ -1,0 +1,11 @@
+x = 10
+x -= 1  # Decrementa 1 a x (agora x vale 9)
+print(x)
+x += 2  # Incrementa 2 a x (agora x vale 11)
+print(x)
+x += 3  # Incrementa 3 a x (agora x vale 14)
+print(x)
+x *= 2  # Multiplica 2 (agora x vale 28)
+print(x)
+x /= 2  # Divide 2 (agora x vale 28)
+print(x)

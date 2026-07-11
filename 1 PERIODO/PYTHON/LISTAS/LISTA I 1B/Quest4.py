@@ -1,0 +1,7 @@
+print("Instituto")
+print("Federal")
+print("do")
+print("Rio")
+print("Grande")
+print("do")
+print("Norte")

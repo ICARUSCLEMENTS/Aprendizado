@@ -1,0 +1,8 @@
+nome = input("Digite seu nome:")
+idade = int(input("Digite sua idade:"))
+grana = float(input("Digite seu saldo: "))
+print("%s tem %d anos e apenas R$%.2f no bolso." % (nome, idade, grana))
+print("%12s tem %3d anos e R$%5.2f no bolso." % (nome, idade, grana))
+print("%12s tem %03d anos e R$%5.2f no bolso." % (nome, idade, grana))
+print("%-12s tem %-3d anos e R$%5.2f no bolso." % (nome, idade, grana))
+print("%-12s tem %-3d anos e R$%-5.2f no bolso." % (nome, idade, grana))

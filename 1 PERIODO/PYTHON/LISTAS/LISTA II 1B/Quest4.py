@@ -1,0 +1,8 @@
+nota1 = float(input("Digite o valor da nota 1: "))
+peso1 = float(input("Digite o peso da nota 1: "))
+nota2 = float(input("Digite o valor da nota 2: "))
+peso2 = float(input("Digite o peso da nota 2: "))
+nota3 = float(input("Digite o valor da nota 3: "))
+peso3 = float(input("Digite o peso da nota 3: "))
+cal1 = (nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3) / (peso1 + peso2 + peso3)
+print("A média ponderada deles é %.2f" % (cal1))

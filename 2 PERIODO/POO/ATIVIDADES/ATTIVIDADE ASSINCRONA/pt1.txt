@@ -1,0 +1,5 @@
+1 - É um molde para criar objetos, agrupando características e ações.
+2 - É uma instância de uma classe, ou seja, algo concreto baseado no molde.
+3 - "__init__" É o inicio do objeto, onde ele recebe suas características iniciais.
+4 - "bateu_meta" Verifica se um vendedor atingiu sua meta e diz se ele conseguiu ou não.
+5 - Além da organização, uma classe torna o código mais fácil de entender, sendo assim, se encontrar algum bug no sistema, seria fácil procura-lo.

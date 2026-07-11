@@ -1,0 +1,19 @@
+Os Diagramas são importantes porque representam a estrutura estática de um sistema orientado a objetos. Eles mostram classes, atributos, métodos e os relacionamentos entre as classes, o que facilita tanto o entendimento quanto o planejamento e desenvolvimento do sistema.
+Eles são utilizados para definir as classes principais do sistema, estabelecer os atributos e comportamentos da classe, determinar a relação das classes(por herança e etc), e preparar uma base para a codificação.
+
+
+
++----------------+           +----------------+
+|     Livro      |           |     Autor      |
++----------------+           +----------------+
+| - titulo       |           | - nome         |
+| - anoPublicacao|           | - nacionalidade|
++----------------+           +----------------+
+| +getTitulo()   |           | +getNome()     |
+| +getAutor()    |           | +getLivros()   |
++----------------+           +----------------+
+         |                            ^
+         |                            |
+         +-------- associação --------+
+
+Neste exemplo acima, a classe livro está relacionada a classe autor, fazendo com que cada livro tenha um autor, e o autor também pode ter vários livros.

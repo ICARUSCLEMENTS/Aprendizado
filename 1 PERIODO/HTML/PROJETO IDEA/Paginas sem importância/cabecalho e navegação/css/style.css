@@ -1,0 +1,160 @@
+body {
+    background-color: #1c1c1c;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+
+    header {
+        height: 70px;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+
+        img {
+            height: 68px;
+            width: 68px;
+            object-fit: cover;
+        }
+    }
+
+    nav {
+        background-color: #4F4F4F;
+        height: 32px;
+        margin: 0 1vh;
+        border-radius: 33px;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+
+        #l1 {
+            display: inline;
+            overflow: auto;
+            margin: 0;
+            padding: 0;
+            height: 32px;
+            width: 60%;
+
+            li {
+                height: 32px;
+                display: inline-flex;
+                align-items: baseline;
+                align-items: center;
+                font-size: 15px;
+                font-weight: 700;
+                margin: 0 32px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    transition: all 0.3s;
+                }
+
+                a:hover {
+                    transform: scale(1.1);
+                    color: gainsboro;
+                }
+            }
+        }
+
+        #l2 {
+            display: inline-flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            margin: 0;
+            padding: 0;
+            height: 32px;
+            width: auto;
+
+            li {
+                display: inline-flex;
+                align-items: center;
+                flex-direction: row;
+                height: 32px;
+                padding: 0;
+            }
+
+            .aolado {
+                margin: 0;
+                align-items: center;
+            }
+
+            #login {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                width: 120px;
+                height: 24px;
+                border-radius: 30px 0px 0px 30px;
+                border: 1.5px solid #FFF;
+
+                a {
+                    color: #000;
+                    text-align: center;
+                    -webkit-text-stroke-width: 2px;
+                    -webkit-text-stroke-color: rgba(0, 0, 0, 0.30);
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-decoration: none;
+                }
+
+                background-color: rgba(173, 255, 47, 0.90);
+                position: relative;
+                left: 22px;
+            }
+
+            #buscar {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                left: 11px;
+                border-radius: 25px 0 0 25px;
+                margin: 0;
+                width: 205px;
+                height: 25px;
+                background-color: #808080;
+                
+                input::placeholder {
+                    color: #FFF;
+                }
+
+                input {
+                    width: 205px;
+                    height: 100%;
+                    border: none;
+                    border: 1px solid #FFF;
+                    border-radius: 25px 0 0 25px;
+                    background-color: #1c1c1c;
+                    color: white;
+                    font-size: 15px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+
+                
+            }
+
+            #lupa {
+                object-fit: cover;
+                border-radius: 50%;
+                rotate: 90deg;
+                position: relative;
+                top: 2.1px;
+                right: 2px;
+            }
+        }
+    }
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+}   

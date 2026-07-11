@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aula</title>
+</head>
+
+<body>
+    <h1>Formulários</h1>
+    <form action="" method="">
+        <h2 id="Login">Login</h2>
+
+        <label for="procurar">Procurar:</label>
+        <input type="search" name="procurar" id="procurar" placeholder="Buscar">
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required minlength="3" maxlength="5" placeholder="Digite seu nome">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required placeholder="Digite seu email">
+        <label for="date">Data de nascimento</label>
+        <input type="date" id="date">
+        <div>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="sexo" id="sexo" value="M">Masculino
+            <input type="radio" name="sexo" id="sexo" value="F">Feminino
+        </div>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" minlength="8" required placeholder="Digite sua senha">
+
+        <div class="container-buttons">
+            <h2>Esportes</h2>
+            <div>
+                <div>
+                    <input type="checkbox" name="esportes" id="futebol" value="futebol" value="1">
+                    <label for="futebol">Futebol</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="esportes" id="volei" value="volei" value="2">
+                    <label for="volei">Vôlei</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-buttons">
+            <h2>Cursos</h2>
+            <div>
+                <div>
+                    <input type="radio" name="curso" value="Api">
+                    <label for="curso">Apicultura</label>
+                </div>
+                <div>
+                    <input type="radio" name="curso" value="Info">
+                    <label for="curso">Informática</label>
+                </div>
+            </div>
+        </div>
+
+        <textarea name="" id="" cols="" rows="3">Digite alguma coisa</textarea>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+
+</html>

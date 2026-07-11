@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método de Pagamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="img/Cabecalho.png" alt="logomarca e botão para página inicial">
+        </a>
+    </header>
+    <nav>
+        <div id="divcabecalho1">
+            <ul id="l1">
+                <li class="esqcabecalho"><a class="icones" href="../PAGINA INICIAL/paginainicial.html"><img src="img/Navegação/Inicio.svg"
+                            alt="INÍCIO"></a><a class="paicones" href="../PAGINA INICIAL/paginainicial.html ">INÍCIO</a></li>
+                <li class="esqcabecalho"><a class="icones" href="../PAGINA MONTAGEM/montagem.html"><img
+                            src="img/Navegação/Montagem.svg" alt="MONTAGEM"></a><a class="paicones"
+                        href="../PAGINA MONTAGEM/montagem.html">MONTAGEM</a></li>
+                <li class="esqcabecalho"><a class="icones" href="../PAGINAINFORMAÇOES/informacoes.html"><img
+                            src="img/Navegação/Informacoes.svg" alt="INFORMAÇÕES "></a><a class="paicones"
+                        href="../PAGINAINFORMAÇOES/informacoes.html">INFORMAÇÕES</a></li>
+                <li class="esqcabecalho"><a class="icones" href="../PAGINAMEUSENDEREÇOS/enderecossalvos.html"><img
+                            src="img/Navegação/Meusenderecos.svg" alt=""></a><a class="paicones"
+                        href="../PAGINAMEUSENDEREÇOS/enderecossalvos.html">MEUS ENDEREÇOS</a></li>
+            </ul>
+        </div>
+        <div id="divcabecalho2">
+            <ul id="l2">
+                <li id="CARRINHO"><a href="../PAGINA CARRINHO/carrinho.html" id="camcarrinho"><img id="positionimage"
+                            src="img/Navegação/carrinhobranco.jpg" alt="CARRINHO" height="15px"></a><a class="paicones"
+                        href="../PAGINA CARRINHO/carrinho.html">CARRINHO</a></li>
+                <li><button id="login"><a class="icones" href="../LOGIN/index5.html"><img
+                                src="img/Navegação/Entrar.svg" alt="ENTRAR"></a><a class="paicones"
+                            href="../LOGIN/index5.html">ENTRAR</a></button></li>
+                <li id="buscar"><input id="barradebusca" type="text" placeholder="Buscar"><img
+                        src="img/Navegação/lupa.svg" alt="Barra de busca" id="lupa"></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="payment-container">
+        <h1>Método de Pagamento (Cartão)</h1>
+        <div class="logos">
+            <img src="img//Visa_Inc._logo.svg.png" alt="Visa">
+            <img src="img//Mastercard_2019_logo.svg.png" alt="MasterCard">
+            <img src="img//Hipercard_logo.svg" alt="Hipercard">
+            <img src="img//Elo_card_association_logo_-_black_text.svg.png" alt="Elo">
+        </div>
+        <form>
+            <label for="card-number">Número do Cartão:</label>
+            <input type="text" id="card-number" placeholder="1234 5678 9123 4567" required>
+
+            <label for="card-holder">Nome do Titular do Cartão:</label>
+            <input type="text" id="card-holder" placeholder="Teste da Silva" required>
+
+            <div class="row">
+                <div>
+                    <label for="expiry-date">Validade do Cartão:</label>
+                    <input type="text" id="expiry-date" placeholder="MM/AA" required>
+                </div>
+                <div>
+                    <label for="cvc">Código de Segurança do Cartão:</label>
+                    <input type="text" id="cvc" placeholder="CVC" required>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button type="submit" class="buy">Comprar</button>
+                <button type="button" class="approved">Compra Aprovada</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

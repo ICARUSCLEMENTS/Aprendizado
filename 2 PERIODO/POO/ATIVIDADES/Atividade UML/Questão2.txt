@@ -1,0 +1,33 @@
+Associação - Quando uma classe “usa” ou “se relaciona com” outra, mas sem implicar propriedade ou parte.
+
++-------------+      associação      +-------------+
+|   Aluno     |----------------------|   Curso     |
++-------------+                      +-------------+
+| nome        |                      | nome        |
+| matricula   |                      | codigo      |
++-------------+                      +-------------+
+
+Um aluno pode estar matriculado em vários cursos, e um curso pode ter vários alunos. Essa é uma relação muitos-para-muitos.
+
+Generalização(herança) - Representa um relacionamento em que uma classe mais específica herda atributos e métodos de uma classe mais geral.
+
++-------------------+
+|     Animal        |
++-------------------+
+| - nome            |
+| - idade           |
++-------------------+
+| +comer()          |
+| +dormir()         |
++-------------------+
+         ▲
+         |
+  --------------------
+  |                  |
++----------+     +----------+
+| Cachorro |     |   Gato   |
++----------+     +----------+
+| - latir()|     | - miar() |
++----------+     +----------+
+
+A classe Animal é a classe pai e engloba todos os animais, as subclasses Cachorro e Gato são classes filhas de Animal, os dois são animais, então a classe-pai tem atributos e métodos genericos, que os dois animais fazem.
